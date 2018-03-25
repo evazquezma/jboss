@@ -1,7 +1,7 @@
 # Jboss datasources and transactions tests
 
 ## Jboss config
-Datasources config: ''
+Datasources config: ```xml
 <subsystem xmlns="urn:jboss:domain:datasources:1.2">
     <datasources>
         <datasource jta="false" jndi-name="java:jboss/datasources/ExampleDSNoJTA" pool-name="ExampleDSNoJTA" enabled="true" use-java-context="true">
@@ -73,7 +73,7 @@ Datasources config: ''
         </drivers>
     </datasources>
 </subsystem>
-''
+```
 
 ## Play
 Set datasources in 'database-config.xml'. Deploy the application and go to http://localhost:8080/datasources/test
