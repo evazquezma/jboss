@@ -25,10 +25,10 @@
 	<c:if test="${jndiForm != null}">
 		<hr>
 		<h3>Results</h3>
-			<label>JNDI key:</label> ${jndiForm.jndiKey} <br/>
-			<label>JNDI value:</label> ${jndiForm.jndiValue} <br/>
-			<label>JNDI class:</label> ${jndiForm.jndiClass} <br/>
-			<label>Error:</label> ${jndiForm.error} <br/>
+		<label>JNDI key:</label> ${jndiForm.jndiKey} <br/>
+		<label>JNDI value:</label> ${jndiForm.jndiValue} <br/>
+		<label>JNDI class:</label> ${jndiForm.jndiClass} <br/>
+		<label>Error:</label> ${jndiForm.error} <br/>
 	</c:if>
 
 </body>

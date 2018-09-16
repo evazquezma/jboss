@@ -50,7 +50,33 @@
 			<version>6.0</version>
 			<scope>provided</scope>
 		</dependency>
-	
+
+		<dependency>
+			<groupId>org.infinispan</groupId>
+			<artifactId>infinispan-core</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.as</groupId>
+			<artifactId>jboss-as-clustering-infinispan</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun</groupId>
+			<artifactId>tools</artifactId>
+			<version>1.6</version>
+			<scope>system</scope>
+			<systemPath>C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar</systemPath>
+		</dependency>
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.jboss.as</groupId> -->
+		<!-- <artifactId>jboss-as-clustering-api</artifactId> -->
+		<!-- <version>7.5.0.Final-redhat-21</version> -->
+		<!-- </dependency> -->
+
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -62,7 +88,7 @@
 			<groupId>org.picketbox</groupId>
 			<artifactId>picketbox</artifactId>
 			<scope>provided</scope>
-		</dependency>	
+		</dependency>
 	</dependencies>
 
 </project>
