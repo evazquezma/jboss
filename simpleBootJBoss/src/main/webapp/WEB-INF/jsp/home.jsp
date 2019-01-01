@@ -28,9 +28,17 @@
 
 	<div class="container">
 		<div class="alert alert-success">
-	  		<strong>Success!</strong> Indicates a successful or positive action.
+	  		<strong>Success!</strong> ${mensaje}
 		</div>
 	
+		<div class="alert alert-success">
+	  		<strong>Inernal property:</strong> ${internalProperty}	  		
+		</div>
+		<div class="alert alert-success">
+	  		<strong>External property:</strong> ${externalProperty}	  		
+		</div>
+		
+		
 		<div class="row">
 			<div class="col-sm-12">
 				<h3>Ejemplo</h3>
